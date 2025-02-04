@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e7e5eb;
+    overflow: hidden;
+  }
+
+  .player {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgb(138, 138, 138);
+    backdrop-filter: blur(10px);
+    width: 40%;
+    background: linear-gradient(to right, rgba(1, 82, 41, 0.589),rgba(153, 153, 153, 0.11));
+  }
+
+  audio {
+    width: 300px;
+  }
+
+  .controls {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .span1{
+    color: #01663fec;
+    font-size: 2rem;
+  }
+  .span2{
+    color:  #bd4e04f6;
+    font-size: 2rem;
+  }
+  h2{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  #current-time
+  {
+    position: absolute;
+    top:17.8rem;
+    left:11rem;
+    color: #b45304dc;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background-color: #dd490513;
+    padding: 0.1rem 0.6rem 0.1rem 0.6rem;
+    border-radius: 5rem;
+    
+  }
+  #duration
+  {
+    position: absolute;
+    top:17.8rem;
+    left: 28rem;
+    color: #025a31e7;
+    font-size: 0.7em;
+    font-weight: 700;
+    background-color: #038b4013;
+    padding: 0.1rem 0.6rem 0.1rem 0.6rem;
+    border-radius: 5rem;
+    
+  }
+  img{
+    width: 20px;
+    height: 20px;
+  }
+  .playb
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06a00b2a;
+    font-weight: 500;
+    padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+    border-radius: 2rem;
+
+  }
+  .pauseb
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e65f052a;
+    font-weight: 500;
+    padding: 0.2rem 0.9rem 0.2rem 0.9rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: rgb(31, 31, 31);
+  }
+  #play, #pause{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border:none;
+    color: rgb(31, 31, 31);
+    background-color: transparent;
+    cursor: pointer;
+}
+.reload
+{
+    font-family: 'Poppins';
+    font-size: 0.6rem;
+    font-weight: 600;
+    border: none;
+ background-color: transparent;   
+ color:#00130dfb ;
+ cursor: pointer;
+}
+.reloadpage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0.7rem;
+    left:20rem;
+    background: linear-gradient(to right, rgba(153, 153, 153, 0.11),rgba(1, 82, 41, 0.589));
+    padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+    border-radius: 5rem;
+    margin-left: 16rem;
+    cursor: pointer;   
+}
+.reloadimage
+{
+    width: 12px;
+    height: 12px;
+}
+#progress-bar {
+  width: 210px; 
+  height: 5px;
+  background-color: #b3490234;
+  border-radius: 3px;
+  margin-top: 7.1rem;
+  margin-left: 13.2rem;
+}
+
+#progress {
+  height: 100%;
+  background-color: #535353; 
+  border-radius: 3px; 
+}

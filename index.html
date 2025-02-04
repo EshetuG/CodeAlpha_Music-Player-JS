@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="font/fonts.css">
+</head>
+<body>
+
+  <div class="player">
+    <h2><span class="span1">Music</span>&nbsp;&nbsp;<span class="span2">Player</span></h2>
+    <audio id="audio" src="music/Yohana.mp3"></audio> 
+
+    <div class="controls">
+      <div class="playb"><img src="images/play.png" alt="play"><button type="button" id="play">Play</button></div>
+      <div class="pauseb"><img  src="images/pause.png" alt="pause"><button type="button" id="pause">Pause</button></div>
+    </div>
+
+    <p id="current-time">00:00</p>
+    <p id="duration">00:00</p>
+
+    <div id="progress-bar">
+      <div id="progress">&nbsp;</div>
+    </div>
+    <div class="reloadpage"><img class="reloadimage" src="images/Reload.png" alt="play"><button type="button" class="reload">Reload</button></div>
+  </div>
+  <script src="script.js"> </script>
+</body>
+</html>
